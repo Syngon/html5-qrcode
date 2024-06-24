@@ -25,8 +25,8 @@ export class Html5QrcodeStrings {
 
     public static onlyDeviceSupportedError(): string {
         return "The device doesn't support navigator.mediaDevices , only "
-        + "supported cameraIdOrConfig in this case is deviceId parameter "
-        + "(string).";
+            + "supported cameraIdOrConfig in this case is deviceId parameter "
+            + "(string).";
     }
 
     public static cameraStreamingNotSupported(): string {
@@ -39,7 +39,7 @@ export class Html5QrcodeStrings {
 
     public static insecureContextCameraQueryError(): string {
         return "Camera access is only supported in secure context like https "
-        + "or localhost.";
+            + "or localhost.";
     }
 
     public static scannerPaused(): string {
@@ -55,71 +55,71 @@ export class Html5QrcodeStrings {
 export class Html5QrcodeScannerStrings {
 
     public static scanningStatus(): string {
-        return "Scanning";
+        return "Escaneando";
     }
 
     public static idleStatus(): string {
-        return "Idle";
+        return "Inativo";
     }
 
     public static errorStatus(): string {
-        return "Error";
+        return "Erro";
     }
 
     public static permissionStatus(): string {
-        return "Permission";
+        return "Permissão";
     }
 
     public static noCameraFoundErrorStatus(): string {
-        return "No Cameras";
+        return "Nenhuma câmera encontrada";
     }
 
     public static lastMatch(decodedText: string): string {
-        return `Last Match: ${decodedText}`;
+        return `Última correspondência: ${decodedText}`;
     }
 
     public static codeScannerTitle(): string {
-        return "Code Scanner";
+        return "Scanner de Código";
     }
 
     public static cameraPermissionTitle(): string {
-        return "Request Camera Permissions";
+        return "Solicitar Permissões de Câmera";
     }
 
     public static cameraPermissionRequesting(): string {
-        return "Requesting camera permissions...";
+        return "Solicitando permissões de câmera...";
     }
 
     public static noCameraFound(): string {
-        return "No camera found";
+        return "Nenhuma câmera encontrada";
     }
 
     public static scanButtonStopScanningText(): string {
-        return "Stop Scanning";
+        return "Parar Escaneamento";
     }
 
     public static scanButtonStartScanningText(): string {
-        return "Start Scanning";
+        return "Iniciar Escaneamento";
     }
 
     public static torchOnButton(): string {
-        return "Switch On Torch";
+        return "Ligar Lanterna";
     }
 
     public static torchOffButton(): string {
-        return "Switch Off Torch";
+        return "Desligar Lanterna";
     }
 
     public static torchOnFailedMessage(): string {
-        return "Failed to turn on torch";
+        return "Falha ao ligar a lanterna";
     }
 
     public static torchOffFailedMessage(): string {
-        return "Failed to turn off torch";
+        return "Falha ao desligar a lanterna";
     }
 
     public static scanButtonScanningStarting(): string {
-        return "Launching Camera...";
+        return "Iniciando a câmera...";
     }
 
     /**
@@ -128,7 +128,7 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to file based scanning.
      */
     public static textIfCameraScanSelected(): string {
-        return "Scan an Image File";
+        return "Escaneie um Arquivo de Imagem";
     }
 
     /**
@@ -137,36 +137,36 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to camera based scanning.
      */
     public static textIfFileScanSelected(): string {
-        return "Scan using camera directly";
+        return "Escaneie usando a câmera diretamente";
     }
 
     public static selectCamera(): string {
-        return "Select Camera";
+        return "Selecionar Câmera";
     }
 
     public static fileSelectionChooseImage(): string {
-        return "Choose Image";
+        return "Escolher Imagem";
     }
 
     public static fileSelectionChooseAnother(): string {
-        return "Choose Another";
+        return "Escolher Outra";
     }
 
     public static fileSelectionNoImageSelected(): string {
-        return "No image choosen";
+        return "Nenhuma imagem selecionada";
     }
 
     /** Prefix to be given to anonymous cameras. */
     public static anonymousCameraPrefix(): string {
-        return "Anonymous Camera";
+        return "Câmera Anônima";
     }
 
     public static dragAndDropMessage(): string {
-        return "Or drop an image to scan";
+        return "Ou arraste uma imagem para escanear";
     }
 
     public static dragAndDropMessageOnlyImages(): string {
-        return "Or drop an image to scan (other files not supported)";
+        return "Ou arraste uma imagem para escanear (outros arquivos não são suportados)";
     }
 
     /** Value for zoom. */
